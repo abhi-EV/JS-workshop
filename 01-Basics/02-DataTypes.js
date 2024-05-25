@@ -16,13 +16,15 @@ console.log("hello");*/
       4.null
       5.undefined
       6.symbol => uniquness we use symbol
+      7.BigInt
 
-            // non primitive
+            // non primitive or reference type 
       1. Array
-      2.Object      
+      2.Object 
+      3.Functions     
 */
 
-let uname = "Abhi";
+/*let uname = "Abhi";
 let age = "24";
 let isLoggedIn = false;
 let state = undefined; // undefined
@@ -32,7 +34,25 @@ console.log(typeof uname); // string
 console.log(typeof age);   // number
 console.log(typeof isLoggedIn); // boolean
 console.log(typeof state); // undefined
-console.log(typeof temp); // object
+console.log(typeof temp); // object */
 
+const id  = Symbol("123");
+const anotherId = Symbol("123");
 
+console.log(id === anotherId);
+
+// const bigNum = 2165451654231n;
+
+const rollNo = [1,2,3,4,5,6];
+let myObj = {
+    userName : "abhi",
+    tyepes: "any",
+    age:24,
+}
+
+console.log(myObj.userName);
+
+let myFunc = function () {
+    console.log("this a demo function");
+}
 
