@@ -178,4 +178,3 @@ console.log(greeting.trim());//"hello world!"
 console.log(greeting.trimStart());//'Hello world!   '
 console.log(greeting.trimEnd());//'   Hello world!'
 */
-
